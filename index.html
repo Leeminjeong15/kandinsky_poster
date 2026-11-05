@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komposition VIII</title>
+    <!-- Inter 폰트 불러오기 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="poster">
+      <!-- 1. 메타 정보 (작품명, 작가, 연도) -->
+      <header class="top-bar">
+        <p>Komposition VIII</p>
+        <p>Wassily Kandinsky</p>
+        <p>1923</p>
+      </header>
+
+      <!-- 2. 그림 (도형) -->
+      <div class="art">
+        <div class="blur"></div>
+        <div class="big-circle"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+        <div class="blue-ring"></div>
+        <div class="dot"></div>
+        <div class="circle">
+          <div class="blue-dot"></div>
+        </div>
+        <div class="half"></div>
+        <div class="triangle"></div>
+        <svg class="triangle-line" viewBox="0 0 100 100">
+          <polygon
+            points="50,4 96,96 4,96"
+            fill="none"
+            stroke="#111"
+            stroke-width="4"
+          />
+        </svg>
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+
+      <!-- 3. 메인 타이틀 -->
+      <h1 class="title">
+        <span class="title-small">Komposition</span>
+        <span class="title-big">VIII</span>
+      </h1>
+
+      <!-- 4. 서브 타이틀 -->
+      <p class="sub">
+        <span>Point</span>
+        <span>Line</span>
+        <span>Plane</span>
+      </p>
+
+      <!-- 5. 본문 1 : 작품 설명 -->
+      <div class="text work">
+        <h2>The Work</h2>
+        <p>
+          Kandinsky painted Komposition VIII in 1923, while he was teaching at
+          the Bauhaus in Weimar. Circles, triangles and straight lines float on
+          a light ground, like notes in a piece of music. He saw it as a high
+          point of his work after the war.
+        </p>
+      </div>
+
+      <!-- 6. 본문 2 : 작가 설명 -->
+      <div class="text artist">
+        <h2>The Artist</h2>
+        <p>
+          Wassily Kandinsky (1866–1944) was born in Moscow and is known as one
+          of the first painters of abstract art. He believed colours and shapes
+          could be heard like sounds, and explained this in his book Point and
+          Line to Plane (1926).
+        </p>
+      </div>
+
+      <!-- 7. 메타 정보 (소장처) -->
+      <div class="text museum">
+        <h2>Collection</h2>
+        <p class="museum-name">Solomon R. Guggenheim Museum</p>
+        <p>New York</p>
+        <p>Oil on canvas, 140 × 201 cm</p>
+      </div>
+    </div>
+  </body>
+</html>
